@@ -21,15 +21,16 @@ import { NavLink } from "react-router-dom";
 //     </ul>
 //   );
 // }
+
 export default function Nav({ onSearch }) {
   return (
     <div className={style.navBar}>
         <ul className={style.navLinks}>
-            <NavLink to="/Home">
-            <button>Home</button>
+            <NavLink to="/Home" className={style.navLink}>
+                Home
             </NavLink>
-            <NavLink to="/About">
-            <button>About</button>
+            <NavLink to="/About" className={style.navLink}>
+                About
             </NavLink>
         </ul>
         <SearchBar onSearch={onSearch} className={style.searchBar}/>

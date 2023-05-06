@@ -5,8 +5,8 @@
     justify-content: center;
     margin: auto;
     margin-top: 20px;
-    width: 600px;
-    height: 250px;
+    width: 800px;
+    height: 300px;
     background-color: rgb(39, 112, 19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
@@ -17,18 +17,41 @@
     float: left;
     flex: 2 1 0%;
     width: 100%;
-    height: 250px;
+    height: 300px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 .container div {
+    padding: 12px;
     float: left;
     flex: 3 1 0%;
     position: relative;
-    padding-left: 10px;
-    line-height: 22px;
+    padding-left: 16px;
+    line-height:26px;
     text-align: left;
     color: antiquewhite;
     overflow-wrap: break-word;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 8px rgb(8, 175, 8);
 }
+/* 
+.return {
+    position: ;
+    height: 30px;
+    background: rgb(4,140,156,1);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.returnHome {
+    background: rgb(4,140,156,1);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+} */

@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from 'react-router-dom'
 import style from './Detail.module.css'
 
 export default function Detail() {
@@ -26,18 +25,17 @@ export default function Detail() {
         <article className={style.container}>
             <img src={character.image} alt='' />
             <div>
-                <h2>Name: "{character.name && character.name}"</h2>
-                <p>Status: "{character.status && character.status}"</p>
-                <p>Species: "{character.species && character.species}"</p>
-                <p>Gender: "{character.gender && character.gender}"</p>
-                <p>Origin: "{character.origin?.name && character.origin?.name}"</p>
+                <h2>NAME: {character.name && character.name}</h2>
+                <p>STATUS: {character.status && character.status}</p>
+                <p>SPECIES: {character.species && character.species}</p>
+                <p>GENDER: {character.gender && character.gender}</p>
+                <p>ORIGIN: {character.origin?.name && character.origin?.name}</p>
             </div>
         </article>
-        <button>
-        <Link to='/Home'>
-            Home
-        </Link>
-        </button>
     </div>
   );
 }
+
+// <Link to='/Home' className={style.return}>
+// Home
+// </Link> 
