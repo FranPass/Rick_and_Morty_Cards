@@ -1,0 +1,53 @@
+.navBar {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background: rgb(4,140,156,1);
+  }
+  
+  .navbar .navLinks {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .navbar .nav-links>a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .searchBar {
+    float: right;
+  }
+
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4,140,156);
+}
+  
+li {
+    float: left;
+    display: inline;
+}
+
+li button {
+    box-sizing: border-box;
+    height: 25px;
+    font-size: 11px;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid rgb(23, 65, 12);
+    box-shadow: 1px 1px 1px black;
+    width: 60px;
+    background: rgb(231,249,204);
+    z-index: 150;
+} */
+

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 250px;
+    background-color: rgb(39, 112, 19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    box-shadow: inset -3px -3px 5px rgb(89,232,33);
+}
+
+.container img{
+    float: left;
+    flex: 2 1 0%;
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.container div {
+    float: left;
+    flex: 3 1 0%;
+    position: relative;
+    padding-left: 10px;
+    line-height: 22px;
+    text-align: left;
+    color: antiquewhite;
+    overflow-wrap: break-word;
+}

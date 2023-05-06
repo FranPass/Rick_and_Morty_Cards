@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://wallpapercave.com/wp/wp7227842.jpg');
+  /* background-image: url('./rick_and_morty.jpg'); */
+  /* background-image: url('./ram2.jpg'); */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* z-index: -1; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */

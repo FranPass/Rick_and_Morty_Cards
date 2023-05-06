@@ -1,0 +1,39 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    
+}
+
+.searchBar {
+    height: 25px;
+    font-size: 11px;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid rgb(23, 65, 12);
+    box-shadow: 1px 1px 1px black;
+    width: 250px;
+    background: rgb(231,249,204);
+    z-index: 150;
+}
+
+.searchBtn {
+    border: 0;
+    z-index: 150;
+    margin: 3px 10px 2px 2px;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-image: url('portal.png');
+    background-size: 45px;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+    transform: scale(0.9);
+    transition: 400ms;
+}
+
+.searchBtn:hover {
+    opacity: 1.0;
+    transform: scale(1.1);
+  }
