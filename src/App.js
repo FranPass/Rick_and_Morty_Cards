@@ -44,7 +44,7 @@ function App() {
 
    useEffect(() => {
       if(!access) navigate('/');
-    }, [access]);
+    }, [navigate, access]);
 
    return (
       <div className='App'>
