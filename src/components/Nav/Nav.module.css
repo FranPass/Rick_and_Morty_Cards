@@ -10,15 +10,23 @@
   }
   
   .navLinks {
-    padding-left: 6px;
     display: flex;
+    padding-left: 0;
   }
   
-  .navLink {
-    width: 80px;
-    color: #fff;
-    text-decoration: none;
+  .navLinkBtn {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(98, 131, 134);
+    border: 0;
+    margin: 2px;
+    color: #ffff;
+    font-size:medium;
     text-align: center;
+    cursor: pointer;
+  }
+  .navLinkBtn:hover {
+    background-color: rgb(161, 97, 17);
   }
 
 

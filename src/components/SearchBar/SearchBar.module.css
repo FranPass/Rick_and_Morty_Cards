@@ -25,7 +25,7 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background-image: url('portal.png');
+    background-image: url('../../assets/images/portal.png');
     background-size: 70px;
     background-position: center;
     cursor: pointer;
