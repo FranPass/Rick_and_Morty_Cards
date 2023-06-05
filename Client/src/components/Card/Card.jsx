@@ -39,7 +39,7 @@ function Card({id, name, status, species, gender, origin, image, onClose, addFav
         <p>Status: {status}</p>
         <p>Species: {species}</p>
         <p>Gender: {gender}</p>
-        <p>Origin: {origin.name}</p>
+        <p>Origin: {origin}</p>
       </div>
     </article>
   );
