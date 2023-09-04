@@ -1,9 +1,9 @@
 // import './App.css';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
+import {Routes, Route, useLocation, useNavigate} from 'react-router-dom';
 import Cards from './components/Cards/Cards.jsx';
 import Nav from './components/Nav/Nav.jsx';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-import {Routes, Route, useLocation, useNavigate} from 'react-router-dom';
 import About from './components/About/About'
 import Detail from './components/Detail/Detail'
 import Form from './components/Form/Form.jsx'

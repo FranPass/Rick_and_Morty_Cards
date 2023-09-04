@@ -18,3 +18,4 @@ const deleteFav = async (req,res) => {
 };
 
 module.exports = {deleteFav}
+

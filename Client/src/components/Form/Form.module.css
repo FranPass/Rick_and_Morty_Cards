@@ -1,0 +1,48 @@
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: rgb(78, 104, 71);
+    overflow: hidden;
+    box-shadow: 1px 1px 60px rgba(0, 255, 21, 0.747);
+}
+
+.image img{
+    object-fit: cover;
+    height: 300px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
+.input h2 {
+    box-shadow: 1px 1px 5px black;
+    width: 100%;
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+    font-size: small;
+    color: rgb(219, 0, 0);
+    background-color: rgba(61, 0, 0, 0.445);
+    width: 100%;
+}
+
+.error p {
+    margin: 0;
+    padding: 0;
+}
